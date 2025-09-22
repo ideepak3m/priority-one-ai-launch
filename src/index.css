@@ -12,7 +12,7 @@ Brand colors: Navy Blue + Electric Blue + White + Accent Yellow
     /* Brand Color Palette */
     --brand-navy: 220 60% 15%;
     --brand-electric: 210 100% 50%;
-    --brand-yellow: 45 100% 60%;
+    --brand-yellow: 200 25% 35%;
     --brand-light-blue: 210 100% 90%;
     
     /* Semantic Tokens */
@@ -37,8 +37,8 @@ Brand colors: Navy Blue + Electric Blue + White + Accent Yellow
     --accent: 210 100% 50%;
     --accent-foreground: 0 0% 100%;
     
-    --yellow-accent: 45 100% 60%;
-    --yellow-accent-foreground: 220 60% 15%;
+    --yellow-accent: 200 25% 35%;
+    --yellow-accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;

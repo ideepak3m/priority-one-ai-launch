@@ -19,14 +19,14 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <div className="max-w-4xl mx-auto">
           {/* Tagline */}
-          <p className="text-lg sm:text-xl font-medium mb-6 text-brand-yellow">
+          <p className="text-lg sm:text-xl font-medium mb-6 text-yellow-accent">
             We build AI tools that automate your business, not your personality
           </p>
           
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-8 font-heading leading-tight">
             Smarter AI.{" "}
-            <span className="text-brand-yellow">Simpler</span>{" "}
+            <span className="text-yellow-accent">Simpler</span>{" "}
             Workflows.
           </h1>
           
@@ -40,7 +40,7 @@ const HeroSection = () => {
             <Button variant="yellow" size="lg" className="text-lg px-8 py-4">
               Get a Free AI Audit
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-primary">
+            <Button variant="hero-outline" size="lg" className="text-lg px-8 py-4">
               View Our Work
             </Button>
           </div>
