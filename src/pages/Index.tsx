@@ -2,6 +2,10 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import ProjectsSection from "@/components/ProjectsSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import FAQSection from "@/components/FAQSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -10,7 +14,10 @@ const Index = () => {
       <HeroSection />
       <ServicesSection />
       <ProjectsSection />
-      {/* Future sections will be added here in later phases */}
+      <TestimonialsSection />
+      <FAQSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 };
