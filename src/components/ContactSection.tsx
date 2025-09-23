@@ -87,7 +87,7 @@ const ContactSection = () => {
                 <Phone className="w-5 h-5 text-accent" />
                 <span className="font-semibold text-card-foreground">Ready to talk?</span>
               </div>
-              <p className="text-lg font-semibold text-primary mb-2">(555) 123-4567</p>
+              <p className="text-lg font-semibold text-primary mb-2">(416) 731-5236</p>
               <p className="text-sm text-muted-foreground">
                 Or email us at hello@priorityonetech.com
               </p>
