@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import logoFull from "@/assets/logo-full.png";
 
 const Navigation = () => {
@@ -8,28 +9,30 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img 
-              src={logoFull} 
-              alt="Priority One Tech Service" 
-              className="h-8 w-auto"
-            />
+            <Link to="/">
+              <img 
+                src={logoFull} 
+                alt="Priority One Tech Service" 
+                className="h-8 w-auto"
+              />
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <a href="#services" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
+              <Link to="/#services" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
                 Services
-              </a>
-              <a href="#about" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
+              </Link>
+              <Link to="/about" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
                 About
-              </a>
-              <a href="#portfolio" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
+              </Link>
+              <Link to="/portfolio" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
                 Portfolio
-              </a>
-              <a href="#contact" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
+              </Link>
+              <Link to="/#contact" className="text-foreground hover:text-accent px-3 py-2 text-sm font-medium transition-colors">
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 
